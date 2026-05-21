@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-play"></i>
+            <span>NETFLIX</span>
+        </div>
+        <nav>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search movies...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user-menu">
+                <button id="profileBtn"><i class="fas fa-user"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Movie Collection</h1>
+                <p>Discover the latest and greatest movies</p>
+                <button id="exploreBtn">Explore Now</button>
+            </div>
+        </section>
+
+        <section class="movie-section">
+            <h2>Trending Now</h2>
+            <div class="movie-container" id="trendingContainer"></div>
+        </section>
+
+        <section class="movie-section">
+            <h2>New Releases</h2>
+            <div class="movie-container" id="newReleasesContainer"></div>
+        </section>
+
+        <section class="movie-section">
+            <h2>Popular Movies</h2>
+            <div class="movie-container" id="popularContainer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-play"></i>
+                <span>NETFLIX</span>
+            </div>
+            <div class="footer-links">
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Help Center</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Netflix Clone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
